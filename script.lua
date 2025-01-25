@@ -3,13 +3,13 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    --Made By Bao And Neotaixiu =)
-    --táo hub ,Skibidi :>
+    --ai skid thì nhớ đổi tên =)
+    --táo hub , skibidi:>
     Title = "SkibidiHub",
     SubTitle = "[Premium] Made By Bao And Neotaixiu",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
